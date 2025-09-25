@@ -1,0 +1,9 @@
+{
+	"name": "adf-nycpayroll-reetik-j",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7246e104-5027-4a2c-a3fb-fccf2195bd39",
+		"tenantId": "73c16d08-33b0-4006-9b71-9b40d1d388d3"
+	}
+}
