@@ -58,7 +58,6 @@ Task 1: Azure Infrastructure Setup
  - Configured Azure Data Factory for data integration
 - Set up Azure Synapse Analytics workspace for advanced analytics
 
-
 Task 2: Linked Services Configuration
 
 - Azure Data Lake Gen2 Connection: AzureBlobFS linked service
