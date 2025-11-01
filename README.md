@@ -57,6 +57,11 @@ Task 1: Azure Infrastructure Setup
 - Provisioned Azure SQL Database for structured data warehouse
  - Configured Azure Data Factory for data integration
 - Set up Azure Synapse Analytics workspace for advanced analytics
+![Task 1 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/1.jpg)
+
+![Task 2 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/2.jpg)
+
+![Task 3 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/3.jpg)
 
 Task 2: Linked Services Configuration
 
@@ -64,6 +69,8 @@ Task 2: Linked Services Configuration
 - Azure SQL Database Connection: AzureSQLDatabase linked service
 - Established secure connections with proper authentication
 - Configured connection pooling and timeout settings
+![Task 3 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/1Linked%20service/4.jpg)
+
 
 
 Task 3: Dataset Creation & Schema Mapping
@@ -73,15 +80,19 @@ Task 3: Dataset Creation & Schema Mapping
 - Set up AzureSqlTable datasets for SQL Database tables
 - Implemented data type mapping and validation rules
 
-Show Image
+![Task 5 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/2Data%20Sets/5.jpg)
+
+
 Task 4: Data Flow Development
 
 - Master Data Flows: Mapping data from Data Lake to SQL Database
 - Payroll Aggregation Flow: Union operations with derived columns
 - Data Movement Flows: Staging and target data preparation
 - Implemented error handling and data quality checks
+![Task 7 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/3DataFlow/6.jpg)
 
-Show Image
+![Task 8 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/3DataFlow/7.jpg)
+
 Task 5: Pipeline Orchestration
 
 - Created ExecuteDataFlow activities for data processing
@@ -89,23 +100,26 @@ Task 5: Pipeline Orchestration
 - Set up pipeline triggers and scheduling mechanisms
 - Configured monitoring and alerting for pipeline health
 
-Show Image
+![Task 10 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/4Pipelines/8.jpg)
+
+
 Task 6: Data Transformation & Aggregation
 
 - Developed comprehensive payroll calculation logic
 - Implemented TotalPaid calculation: RegularGrossPaid + TotalOTPaid + TotalOtherPay
 - Created aggregated views for analytical reporting
 - Optimized data flows for performance and scalability
+![Task 11 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/4Pipelines/9.jpg)
 
-Show Image
 Task 7: Synapse Analytics Integration
 
 - Built external tables in Synapse Analytics
 - Connected to Data Lake staging directory
 - Implemented analytical queries for public reporting
 - Created views for dashboard and reporting tools
-
-Show Image
+![Task 10 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/5Data%20Verification/10.jpg)
+![Task 11 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/5Data%20Verification/11.jpg)
+![Task 12 Copy](https://github.com/Reetik1/Data-Pipeline/blob/8b29f296e246244e243157c91bf3e4fba0fe5e99/Udacity%20Data%20Pipeline%20project/5Data%20Verification/12.jpg)
 ## ETL Pipeline Features
 
 - Dynamic Pipelines: Parameterized for flexible data processing
